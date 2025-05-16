@@ -1,5 +1,5 @@
 import express from 'express';
-import mysqlPool from './database/dataBase.js'; // Assumes you've created a MySQL pool
+import mysqlPool from './database/dataBase.js'; 
 
 const Port = 5000;
 
