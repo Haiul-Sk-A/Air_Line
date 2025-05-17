@@ -4,9 +4,9 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const mysqlPool = mysql.createPool({
-    host: process.env.DB_HOST || 'localhost',
+    host: process.env.DB_HOST || '34.69.223.233',
     user: process.env.DB_USER || 'root',
-    password: process.env.DB_PASSWORD || '1234',
+    password: process.env.DB_PASSWORD || 'Haiul@2003',
 });
 
 mysqlPool.getConnection().then(conn => {
