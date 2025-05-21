@@ -10,6 +10,10 @@ app.get('/', (req, res) => {
     res.send('Hello, Backend!');
 });
 
+app.get('test', (req, res) => {
+    res.send('Hello, Haiuli!');
+});
+
 app.get('/test', (req, res) => {
     res.status(200).send("Node.js MySQL App");
 });
